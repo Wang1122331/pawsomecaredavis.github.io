@@ -387,6 +387,10 @@ textarea {
   line-height: 1.7;
 }
 
+.helper-extra {
+  margin-top: 12px !important;
+}
+
 @media (max-width: 820px) {
   .nav {
     flex-direction: column;

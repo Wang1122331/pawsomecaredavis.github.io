@@ -56,13 +56,38 @@
               </div>
 
               <div class="field">
+                <label for="dogAge">Dog Age</label>
+                <input type="text" id="dogAge" name="dogAge" placeholder="For example: 2 years old" required>
+              </div>
+
+              <div class="field">
+                <label for="breed">Breed</label>
+                <input type="text" id="breed" name="breed" required>
+              </div>
+
+              <div class="field">
+                <label for="preferredDate">Preferred Meet & Greet Date</label>
+                <input type="date" id="preferredDate" name="preferredDate" required>
+              </div>
+
+              <div class="field">
+                <label for="vaccinationStatus">Vaccination Status</label>
+                <input type="text" id="vaccinationStatus" name="vaccinationStatus" placeholder="Up to date, Rabies, DHPP, Bordetella" required>
+              </div>
+
+              <div class="field">
                 <label for="additionalDog">Add Another Dog</label>
                 <input type="text" id="additionalDog" name="additionalDog">
               </div>
 
-              <div class="field field-full">
+              <div class="field">
                 <label for="referral">Referral Code</label>
                 <input type="text" id="referral" name="referral">
+              </div>
+
+              <div class="field field-full">
+                <label for="behaviorNotes">Behavior or Special Care Notes</label>
+                <textarea id="behaviorNotes" name="behaviorNotes" rows="4" placeholder="Anything we should know about energy level, socialization, medication, allergies, or routines?"></textarea>
               </div>
 
               <div class="field field-full">
@@ -91,6 +116,10 @@
             <p>
               After you submit this request, Pawsome Care can review your details, confirm that your dog meets daycare
               requirements, and reach out to schedule the visit.
+            </p>
+            <p class="helper-extra">
+              Please be ready to share vaccination records and any behavior notes that would help us make the visit safe
+              and comfortable.
             </p>
           </aside>
         </div>
