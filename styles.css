@@ -114,6 +114,16 @@ a {
 
 .hero-card {
   padding: 64px;
+}
+
+.hero-content {
+  display: grid;
+  grid-template-columns: minmax(0, 1.05fr) minmax(320px, 0.95fr);
+  gap: 30px;
+  align-items: center;
+}
+
+.hero-copy-block {
   display: grid;
   gap: 22px;
 }
@@ -152,6 +162,37 @@ a {
   display: flex;
   flex-wrap: wrap;
   gap: 14px;
+}
+
+.hero-highlights {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.hero-highlights span {
+  display: inline-flex;
+  align-items: center;
+  padding: 10px 14px;
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.72);
+  border: 1px solid rgba(111, 98, 86, 0.14);
+  color: var(--brand-dark);
+  font-weight: 700;
+  box-shadow: 0 8px 18px rgba(85, 60, 38, 0.08);
+}
+
+.hero-media {
+  position: relative;
+}
+
+.hero-media img {
+  display: block;
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
+  border-radius: 24px;
+  box-shadow: 0 20px 40px rgba(73, 53, 38, 0.2);
 }
 
 .button,
@@ -405,6 +446,10 @@ textarea {
   .page-card,
   .form-card {
     padding: 28px;
+  }
+
+  .hero-content {
+    grid-template-columns: 1fr;
   }
 
   .field-grid {
